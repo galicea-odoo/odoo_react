@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="assets_react" name="assets_react" inherit_id="web.assets_backend">
+    <xpath expr="script[last()]" position="after">
+      <script type="text/javascript" src="/react/static/js/SimpleComponent.js"></script>
+      <script type="text/javascript" src="/react/static/js/react_render.js"></script>
+   </xpath>
+</template>
+
+</odoo>

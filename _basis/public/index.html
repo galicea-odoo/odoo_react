@@ -1,0 +1,40 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+  <title></title>
+  <style>
+    body {
+      background-image: url(img/cream_pixels.png);
+      background-repeat: repeat
+    }
+  </style>
+
+  <script>
+  function rclick() {
+     window.reactLink['test']('parametr');
+  }
+  function r2click() {
+     window.reactLink['test2']('parametr');
+  }
+  </script>
+</head>
+
+<body style="margin:0!important"><noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <span onclick="rclick()">
+    klik
+ </span><br />
+  <span onclick="r2click()">
+    klik
+ </span><br />
+</body>
+
+</html>
